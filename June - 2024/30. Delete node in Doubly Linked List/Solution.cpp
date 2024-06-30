@@ -1,32 +1,41 @@
-class Solution {
-public:
-    Node* deleteNode(Node* head, int x) {
-        if (!head || x <= 0) {
+class Solution 
+{
+  public:
+    Node* deleteNode(Node* head, int x) 
+    {
+        if(!head || x <= 0)
             return head;
-        }
+            
         Node* curr = head;
-        if (x == 1) { 
+        if(x == 1)
+        {
             head = head->next;
-            if (head) {
+            if(head)
+            {
                 head->prev = nullptr;
             }
             delete curr;
             return head;
         }
-        for (int i = 1; curr != nullptr && i < x; i++) {
+        
+        for(int i=1; curr != nullptr && i < x; i++)
+        {
             curr = curr->next;
         }
-        if (curr == nullptr) {
+        if(curr == nullptr)
+        {
             return head;
         }
-        if (curr->next) {
+        if(curr->next)
+        {
             curr->next->prev = curr->prev;
         }
-        if (curr->prev) {
+        if(curr->prev)
+        {
             curr->prev->next = curr->next;
         }
-        delete curr;
         
+        delete curr;
         return head;
     }
 };
