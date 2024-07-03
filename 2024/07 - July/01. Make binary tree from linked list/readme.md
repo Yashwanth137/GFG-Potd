@@ -21,8 +21,8 @@ Output: 1 2 3 4 5
 Now, the level order traversal of
 the above tree is 1 2 3 4 5.
 
-Expected Time Complexity: O(n).
-Expected Auxiliary Space: O(n).
-Constraints:
-1 <= size(list) <= 105
-1 <= node.data <= 105
+#### Expected Time Complexity: O(n).
+#### Expected Auxiliary Space: O(n).
+#### Constraints:
+#### 1 <= size(list) <= 105
+#### 1 <= node.data <= 105
