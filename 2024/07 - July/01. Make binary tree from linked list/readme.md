@@ -1,5 +1,5 @@
 # Make Binary Tree From Linked List
-### Difficulty: MediumAccuracy: 65.65%Submissions: 55K+Points: 4
+#### Difficulty: Medium, Accuracy: 65.65%, Submissions: 55K+, Points: 4
 
 Given a Linked List Representation of Complete Binary Tree. Your task is to construct the Binary tree from the given linked list and return the root of the tree.
 The result will be judged by printing the level order traversal of the Binary tree. 
