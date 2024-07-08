@@ -1,4 +1,4 @@
-# Search in Rotated Sorted Array
+# Search in Rotated Sorted Array [Question-link](https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1)
 #### Difficulty: Medium, Accuracy: 37.64%, Submissions: 213K+, Points: 4
 Given a sorted (in ascending order) and rotated array arr of distinct elements which may be rotated at some point and given an element key, the task is to find the index of the given element key in the array arr. The whole array arr is given as the range to search.
 
