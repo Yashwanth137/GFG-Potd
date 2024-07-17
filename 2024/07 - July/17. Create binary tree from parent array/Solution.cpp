@@ -1,21 +1,39 @@
-class Solution:
-    def delNodes(
-        self, root: Optional[TreeNode], to_delete: List[int]
-    ) -> List[TreeNode]:
-        def dfs(root: Optional[TreeNode]) -> Optional[TreeNode]:
-            if root is None:
-                return None
-            root.left, root.right = dfs(root.left), dfs(root.right)
-            if root.val not in s:
-                return root
-            if root.left:
-                ans.append(root.left)
-            if root.right:
-                ans.append(root.right)
-            return None
+/* node structure  used in the program
 
-        s = set(to_delete)
-        ans = []
-        if dfs(root):
-            ans.append(root)
-        return ans
+struct Node
+{
+    int data;
+    struct Node* left;
+    struct Node* right;
+
+    Node(int x){
+        data = x;
+        left = right = NULL;
+    }
+}; */
+
+class Solution {
+  public:
+    
+    Node *createTree(vector<int> parent) {
+        unordered_map<int,Node*> nodes;
+        for(int i =0;i< parent.size();i++){
+            nodes[i] =new Node(i);
+        }
+        int rootval =-1;
+        for(int i =0;i< parent.size();i++){
+            int Par =parent[i];
+            int Child =i;
+            if(Par == -1){
+                rootval =i;
+                continue;
+            }
+            if(nodes[Par]->left == nullptr){
+                nodes[Par]->left =nodes[Child];
+            }else{
+                nodes[Par]->right =nodes[Child];
+            }
+        }
+        return nodes[rootval];
+    }
+};
