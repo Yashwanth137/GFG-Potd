@@ -1,4 +1,5 @@
 # Remaining String
+#### [Question-Link](https://www.geeksforgeeks.org/problems/remaining-string3515/1)
 #### Difficulty: Easy, Accuracy: 17.06%, Submissions: 65K+, Points: 2
 Given a string s without spaces, a character ch and an integer count. Your task is to return the substring that remains after the character ch has appeared count number of times.
 <br>Note:  Assume upper case and lower case alphabets are different. “”(Empty string) should be returned if it is not possible, or the remaining substring is empty.
