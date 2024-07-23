@@ -1,6 +1,6 @@
-# Merge two BST 's
+# Merge two BST's
 #### https://www.geeksforgeeks.org/problems/merge-two-bst-s/1
-#### Difficulty: MediumAccuracy: 64.95%Submissions: 66K+Points: 4
+#### Difficulty: Medium, Accuracy: 64.95%, Submissions: 66K+, Points: 4
 #### Given two BSTs, return elements of merged BSTs in sorted form.
 
 #### Examples :
