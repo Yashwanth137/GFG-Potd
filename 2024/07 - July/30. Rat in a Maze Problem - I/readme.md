@@ -12,5 +12,5 @@ Consider a rat placed at (0, 0) in a square matrix mat of order n* n. It has to 
 Here l = length of the path, x = number of paths.
 
 #### Constraints:
-2 ≤ n ≤ 5
-  0 ≤ mat[i][j] ≤ 1
+2 ≤ n ≤ 5 <br>
+0 ≤ mat[i][j] ≤ 1
