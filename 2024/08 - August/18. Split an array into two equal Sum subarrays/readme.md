@@ -1,4 +1,5 @@
 # Split an array into two equal Sum subarrays
+#### [Question-Link](https://www.geeksforgeeks.org/problems/split-an-array-into-two-equal-sum-subarrays/1)
 #### Difficulty: Easy, Accuracy: 54.45%, Submissions: 18K+, Points: 2
 <br>
 Given an array of integers arr, return true if it is possible to split it in two subarrays (without reordering the elements), such that the sum of the two subarrays are equal. If it is not possible then return false.
