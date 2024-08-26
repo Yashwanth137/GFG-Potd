@@ -12,14 +12,14 @@ Note: The matching should cover the entire str (not partial str).
 <br>
 #### Examples:
 ```
-Input: pattern = "ba*a?", str = "baaabab" <br>
-Output: 1 <br>
+Input: pattern = "ba*a?", str = "baaabab" 
+Output: 1 
 Explanation: replace '*' with "aab" and  
 '?' with 'b'.
 ```
 ```
-Input: pattern = "a*ab", str = "baaabab" <br>
-Output: 0<br>
+Input: pattern = "a*ab", str = "baaabab" 
+Output: 0
 Explanation: Because in string pattern character 'a' at first position,
 pattern and str can't be matched. 
 ```
