@@ -11,18 +11,18 @@ The wildcard pattern can include the characters ? and *<br>
 Note: The matching should cover the entire str (not partial str).
 <br>
 #### Examples:
-`
+```
 Input: pattern = "ba*a?", str = "baaabab" <br>
 Output: 1 <br>
 Explanation: replace '*' with "aab" and  
 '?' with 'b'.
-`
-`
+```
+```
 Input: pattern = "a*ab", str = "baaabab" <br>
 Output: 0<br>
 Explanation: Because in string pattern character 'a' at first position,
 pattern and str can't be matched. 
-`
+```
 #### Expected Time Complexity: O(n*m)
 #### Expected Auxiliary Space: O(n*m)
 
