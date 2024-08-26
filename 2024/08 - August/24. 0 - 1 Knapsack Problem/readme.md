@@ -27,4 +27,5 @@ Explanation: Every item has a weight exceeding the knapsack's capacity (3).
 2 ≤ N ≤ 1000
 1 ≤ W ≤ 1000
 1 ≤ wt[i] ≤ 1000
-1 ≤ val[i] ≤ 1000```
+1 ≤ val[i] ≤ 1000
+```
