@@ -8,6 +8,7 @@ Note: h is the tree's height, and this space is used implicitly for the recursio
 ![image](https://github.com/user-attachments/assets/160f3f23-f18d-48d6-936a-e43da41af245)
 
 #### Examples:
+![image](https://github.com/user-attachments/assets/21066e43-b43a-4330-b7a2-e9af144f1c98)
 ```
 Input:
       1
@@ -16,9 +17,12 @@ Input:
 Output:
 3 1 2 
 2 1 3
-![image](https://github.com/user-attachments/assets/21066e43-b43a-4330-b7a2-e9af144f1c98)
 Explanation: DLL would be 3<=>1<=>2
 ```
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/41799b1d-ada2-4ad4-a177-aca916ebbae0)
 ```
 Input:
        10
@@ -29,7 +33,6 @@ Input:
 Output:
 40 20 60 10 30 
 30 10 60 20 40
-![image](https://github.com/user-attachments/assets/41799b1d-ada2-4ad4-a177-aca916ebbae0)
 Explanation:  DLL would be 40<=>20<=>60<=>10<=>30.
 ```
 ```
