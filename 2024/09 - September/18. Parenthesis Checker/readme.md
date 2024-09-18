@@ -21,7 +21,8 @@ Explanation: (). Same bracket can form balanced pairs,and here only 1 type of br
 ```
 Input: ([]
 Output: false
-Explanation: ([]. Here square bracket is balanced but the small bracket is not balanced and Hence , the output will be unbalanced.
+Explanation: ([]. Here square bracket is balanced but the small bracket is not balanced and Hence , the output will be
+unbalanced.
 ```
 ```
 Expected Time Complexity: O(|x|)
