@@ -6,6 +6,8 @@ Given an array height representing the heights of buildings. You have to count t
 <br>
 Note: The height of the building should be strictly greater than the height of the buildings left in order to see the sun.
 
+![image](https://github.com/user-attachments/assets/82784e41-0a2c-432a-844c-2ccd9b4e29eb)
+
 #### Examples :
 ```
 Input: height = [7, 4, 8, 2, 9]
