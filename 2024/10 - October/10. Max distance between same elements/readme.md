@@ -16,7 +16,8 @@ Explanation: The distance for 1 is 5-0 = 5, and the distance for 2 is 4-2 = 2. S
 ```
 Input: arr = [3, 2, 1, 2, 1, 4, 5, 8, 6, 7, 4, 2]
 Output: 10
-Explanation: The maximum distance for 2 is 11-1 = 10, the maximum distance for 1 is 4-2 = 2, and the maximum distance for 4 is 10-5 = 5, So the maximum distance is 10.
+Explanation: The maximum distance for 2 is 11-1 = 10, the maximum distance for 1 is 4-2 = 2, and the maximum distance
+for 4 is 10-5 = 5, So the maximum distance is 10.
 ```
 ```
 Expected Time Complexity:  O(n)
