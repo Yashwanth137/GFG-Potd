@@ -21,6 +21,6 @@ Expected Auxilary Space: O(n)
 
 Constraints:
 1 <= arr.size() <= 10^6
--105 <= arr[i] <= 10^5
--105 <= tar <= 10^5
+-10^5 <= arr[i] <= 10^5
+-10^5 <= tar <= 10^5
 ```
