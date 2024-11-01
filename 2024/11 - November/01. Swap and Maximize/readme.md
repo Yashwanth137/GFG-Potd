@@ -14,15 +14,16 @@ Explanation: After Shuffling, we get [1, 8, 2, 4]. Sum of absolute difference be
 Input: arr[] = [10, 12]<br>
 Output: 4<br>
 Explanation: No need of rearrangement. Sum of absolute difference between consecutive <br> 
-             elements = |10 - 12| + |12 - 10| = 2 + 2 = 4.
+             elements = |10 - 12| + |12 - 10| = 2 + 2 = 4. <br>
 
 
 <br>
 Constraints:<br>
 2 ≤ arr.size()≤ 10^5<br>
 1 <= arr[i] <= 10^5
-
 <br>
+
+
 ```
 class Solution 
 {
