@@ -6,20 +6,20 @@ Given an array arr[ ] of positive elements. Consider the array as a circular arr
 
 #### Examples:
 
-Input: arr[] = [4, 2, 1, 8]
-Output: 18
-Explanation: After Shuffling, we get [1, 8, 2, 4]. Sum of absolute difference between consecutive elements after 
+Input: arr[] = [4, 2, 1, 8] <br>
+Output: 18<br>
+Explanation: After Shuffling, we get [1, 8, 2, 4]. Sum of absolute difference between consecutive elements after <br>
              rearrangement = |1 - 8| + |8 - 2| + |2 - 4| + |4 - 1| = 7 + 6 + 2 + 3 = 18.
 
 <br>
-Input: arr[] = [10, 12]
-Output: 4
-Explanation: No need of rearrangement. Sum of absolute difference between consecutive 
+Input: arr[] = [10, 12]<br>
+Output: 4<br>
+Explanation: No need of rearrangement. Sum of absolute difference between consecutive <br> 
              elements = |10 - 12| + |12 - 10| = 2 + 2 = 4.
 
 <br>
-Constraints:
-2 ≤ arr.size()≤ 10^5
+Constraints:<br>
+2 ≤ arr.size()≤ 10^5<br>
 1 <= arr[i] <= 10^5
 
 ```
