@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<vector<string>> groupAnagrams(vector<string>& words) {
+    vector<vector<string>> anagrams(vector<string>& words) {
         unordered_map<string, vector<string>> anagramGroups;
 
         for (string& word : words) {
