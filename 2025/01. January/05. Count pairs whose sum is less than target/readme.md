@@ -1,31 +1,28 @@
-# Indexes of Subarray Sum
-#### [Question-Link](https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1)
-#### Difficulty: Medium, Accuracy: 16.5%, Submissions: 1.7M, Points: 4
+# Count Pairs whose sum is less than target
+#### [Question-Link](https://www.geeksforgeeks.org/problems/count-pairs-whose-sum-is-less-than-target/1)
+#### Difficulty: Easy, Accuracy: 53.13%, Submissions: 31K+, Points: 2
 
-Given an array arr[] containing only non-negative integers, your task is to find a continuous subarray (a contiguous sequence of elements) whose sum equals a specified value target. You need to return the 1-based indices of the leftmost and rightmost elements of this subarray. You need to find the first subarray whose sum is equal to the target.
-<br>
-
-Note: If no such array is possible then, return [-1].
+Given an array arr[] and an integer target. You have to find the number of pairs in the array whose sum is strictly less than the target.
 
 #### Examples:
 ```
-Input: arr[] = [1, 2, 3, 7, 5], target = 12
-Output: [2, 4]
-Explanation: The sum of elements from 2nd to 4th position is 12.
+Input: arr[] = [7, 2, 5, 3], target = 8
+Output: 2
+Explanation: There are 2 pairs with sum less than 8: (2, 5) and (2, 3). 
 ```
 ```
-Input: arr[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], target = 15
-Output: [1, 5]
-Explanation: The sum of elements from 1st to 5th position is 15.
+Input: arr[] = [5, 2, 3, 2, 4, 1], target = 5
+Output: 4
+Explanation: There are 4 pairs whose sum is less than 5: (2, 2), (2, 1), (3, 1) and (2, 1).
 ```
 ```
-Input: arr[] = [5, 3, 4], target = 2
-Output: [-1]
-Explanation: There is no subarray with sum 2.
+Input: arr[] = [2, 1, 8, 3, 4, 7, 6, 5], target = 7
+Output: 6
+Explanation: There are 6 pairs whose sum is less than 7: (2, 1), (2, 3), (2, 4), (1, 3), (1, 4) and (1, 5).
 ```
 ```
 Constraints:
-1 <= arr.size()<= 10^6
-0 <= arr[i] <= 10^3
-0 <= target <= 10^9
+1 <= arr.size() <= 10^5
+0 <= arr[i] <= 10^4
+1 <= target <= 10^4
 ```
