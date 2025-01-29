@@ -21,8 +21,8 @@ Output: -16.49971
 Constraints:
 
     -100.0 < b < 100.0
-    -109 <= e <= 109
+    -10^9 <= e <= 10^9
     Either b is not zero or e > 0.
-    -104 <= be <= 104
+    -10^4 <= be <= 10^4
 
 ```
